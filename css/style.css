@@ -1,18 +1,16 @@
-header{ 
-    display:flex;
-}
-
 ul{
     list-style: none;
-    padding: 0;
 }
 
 .menu {
  display: flex;
  max-width: 992px;
  min-width: 320px;
- justify-content: center;
+ justify-content: space-between;
  margin: 0 auto;
+flex-direction: none;
+height: 100%;
+align-items: center;
 }
 
 *{
@@ -22,4 +20,43 @@ ul{
 }
 ul li a {
     text-decoration: none;
+    color: #fff;
 }
+
+header{
+    width: 100%;
+    background-color:#468CE8;
+    height: 100px;
+    align-items: center;
+    color: #fff;
+
+}
+.list-item{
+    display: flex;
+    width: 260px;
+    justify-content: space-between;
+    align-items: center;
+}
+.apresentacao{
+    /*vh=unidade de medida equivalente a alturado viewport ou seja, se o viewport for de 1000px,60vh irá representar 60% dos 1000pxou seja ,6000px*/
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.apresentacao .txt-apresentacao{
+    height: 200px;
+}
+
+.txt-apresentacao h2{
+    color: chocolate;
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+.btn{
+    width: 220px;
+    height: 50px;
+    background-color: rgb(5, 16, 36);
+    color:white;
+
+} 
