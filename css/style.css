@@ -1,0 +1,25 @@
+header{ 
+    display:flex;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+}
+
+.menu {
+ display: flex;
+ max-width: 992px;
+ min-width: 320px;
+ justify-content: center;
+ margin: 0 auto;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+ul li a {
+    text-decoration: none;
+}
